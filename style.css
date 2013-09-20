@@ -59,6 +59,11 @@ p {
   font-family: 'Esteban' serif;
 }
 
+h2 {
+  font-size: 16pt;
+  padding-bottom: 5px;
+}
+
 #main {
   font-size: 18pt;
   font-color: black;
@@ -91,12 +96,18 @@ nav {
 .content {
   float: left;
   margin: 10px 50px 50px 50px;
-  background-color: #ccffff;
-  border: 1px solid gray;
 }
 
 #sectionone, #sectiontwo, #sectionthree {
   padding: 10px;
+  background-color: #ccffff;
+  border: 1px solid gray;
 }
 
+#sectiontwo {
+  display: none;
+}
 
+#sectionthree {
+  display: none;
+}
