@@ -2,7 +2,6 @@
 <html lang="en">
 <meta charset="UTF-8">
 <link rel="stylesheet" href="style.css">
-<script type="text/javascript" src="application.js"></script>
  
 <html>
   <head>
@@ -15,33 +14,33 @@
       </header>
       <nav>
         <ul id="primary">
-          <li id="tabone" onclick="navigate('sectionone');"><a href="#">Section I</a></li>
-          <li id="tabtwo" onclick="navigate('sectiontwo');"><a href="#">Section II</a></li>
-          <li id="tabthree" onclick="navigate('sectionthree');"><a href="#">Section III</a></li>
+          <li id="tabone"><a href="#">Welcome</a></li>
+          <li id="tabtwo"><a href="#">Test</a></li>
+          <li id="tabthree"><a href="#">Explanation</a></li>
         </ul>
       </nav>
       <div class="content">
-        <div id="sectionone" class="section">
+        <section id="welcome" class="tab-content">
           <h2>Welcome</h2>
           <p>
             Today I am building a small example JavaScript navigation. Use the tabs to navigate between sections without reloading the page. Ideally, this will work without a hitch. Though I hope your computer doesn't burst into flame, I cannot be held responsible for the results.
           </p>
-        </div>
-        <div id="sectiontwo" class="section">
+        </section>
+        <section id="test" class="tab-content">
           <h2>Test</h2>
           <p>
             The tabs should refelct their active and inactive states by their style. For example, borders and tab colors should correspond with which tab is currently active - active tab is the same color as the section below it.
           </p>
-        </div>
-        <div id="sectionthree" class="section">
+        </section>
+        <section id="explanation" class="tab-content">
           <h2>Explanation</h2>
           <p>
             Did the page reload entirely? Good. That means it is working. Ultimately, the plan is to have this page contructed using purely JavaScript, HTML and CSS. No jQuery or other fancypants shortcuts. 
           </p>
-        </div>
+        </section>
       </div>
     </div>
   </body>
 </html>
 
-
+<script type="text/javascript" src="application.js"></script>

@@ -98,16 +98,16 @@ nav {
   margin: 10px 50px 50px 50px;
 }
 
-#sectionone, #sectiontwo, #sectionthree {
+#welcome, #test, #explanation{
   padding: 10px;
   background-color: #ccffff;
   border: 1px solid gray;
 }
 
-#sectiontwo {
+#test {
   display: none;
 }
 
-#sectionthree {
+#explanation {
   display: none;
 }
