@@ -15,16 +15,17 @@ var link1 = document.getElementById("tabone");
 var link2 = document.getElementById("tabtwo");
 var link3 = document.getElementById("tabthree");
 
-link1.onclick = 
-
-function() {
+link1.addEventListener("click", function() {
   navigate("welcome")
-};
+  }
+);
 
-link2.onclick = function() {
+link2.addEventListener("click", function() {
   navigate("test")
-};
+  }
+);
 
-link3.onclick = function() {
+link3.addEventListener("click", function() { 
   navigate("explanation")
-};
+  }
+);
